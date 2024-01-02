@@ -6,7 +6,7 @@ TLS_VER="edb8fec"
 
 # Initialise
 PKG_CFLAGS=""
-PKG_LIBS="-lnng -lmbedtls -lmbedx509 -lmbedcrypto"
+PKG_LIBS="-lnng -lmbedtls -lmbedx509 -lmbedcrypto -lprofiler"
 NNG_CFLAGS=""
 NNG_LIBS=""
 

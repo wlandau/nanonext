@@ -211,6 +211,8 @@ SEXP rnng_ncurl_session_close(SEXP);
 SEXP rnng_ncurl_transact(SEXP);
 SEXP rnng_next_config(SEXP, SEXP);
 SEXP rnng_pipe_notify(SEXP, SEXP, SEXP, SEXP, SEXP, SEXP);
+SEXP rnng_profiler_start(SEXP);
+SEXP rnng_profiler_stop(SEXP);
 SEXP rnng_protocol_open(SEXP, SEXP);
 SEXP rnng_random(SEXP, SEXP);
 SEXP rnng_reap(SEXP);
